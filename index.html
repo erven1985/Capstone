@@ -1,0 +1,40 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wheel of Fortune</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="project.js"></script>
+</head>
+<body>
+	<h1>Wheel of Fortune</h1>
+	<div id="cover"></div>
+ 		<div id="modal">
+ 				<div class="close">X</div>
+ 						<h2>Welcome</h2>
+ 								<h4>Official Rules</h4>
+										<ul>
+											<li>Press the "x" button to close this window.</li>
+											<li>Please, press the start button to begin the game.</li>
+											<li>You have only 3 letters guess and after that the programm will offer you to guess whole phrase. You'll have only 15 sec to enter your answer. You can use lower case to enter a letter or a phrase. Hope you'll win!</li>
+											<li>Participants may copy these Official Rules for personal use only and not for any commercial purpose whatsoever.</li>
+											<li>All rights reserved.</li>
+										</ul>
+  				</div id="general">
+			<button id="main">Start</button>
+	<div id="box">
+			<p id="count">3</p>
+	</div>
+	<form id="inputform"">
+	<input id="uChoice" type="text" name="userChoise" placeholder="Only one letter a time" onchange="incrementCount();"><br />
+	<button id="btn">Submit</button>
+	</form>
+	</div>
+</body>
+</html>
+
+
